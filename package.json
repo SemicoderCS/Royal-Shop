@@ -1,0 +1,22 @@
+{
+  "name": "royal-shop",
+  "version": "1.0.0",
+  "description": "This site is JS course project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./css/input.css -o ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemicoderCS/Royal-Shop.git"
+  },
+  "author": "Ramin Joshang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SemicoderCS/Royal-Shop/issues"
+  },
+  "homepage": "https://github.com/SemicoderCS/Royal-Shop#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
