@@ -29,7 +29,7 @@
                     <img class="w-28 mx-auto" src="./images/logo.png" alt="logo">
                 </div>
                 <div id="mobile-menu"
-                    class="bg-[#660bce] md:bg-transparent text-white shadow-2xl fixed top-0 bottom-0 w-[250px] -right-[250px]  pt-14 pr-5 md:pt-0  md:w-auto md:static transition-all duration-500">
+                    class="bg-[#660bce] md:bg-transparent text-white shadow-2xl fixed top-0 bottom-0 z-50 w-[250px] -right-[250px]  pt-14 pr-5 md:pt-0  md:w-auto md:static transition-all duration-500">
                     <div class="w-full md:hidden">
                         <img class="" src="./images/logo-white.png" alt="logo">
                     </div>
@@ -216,10 +216,10 @@
     <!-- ----------------------------------------------------------------------- -->
     <!--                              Top Products                               -->
     <!-- ----------------------------------------------------------------------- -->
-    <section class="pb-20 p-5 lg:px-0">
+    <section class="pb-14 p-5 lg:px-0">
         <div class="container mx-auto">
             <div class="border-b border-b-[#e5e5e5]">
-                <h2 class="inline-block text-xl border-b-[3px] border-b-[#16bcdc] borderw pb-4">محصولات برتر</h2>
+                <h2 class="inline-block text-2xl border-b-[3px] border-b-[#16bcdc] borderw pb-4">محصولات برتر</h2>
             </div>
             <div class="mt-10 ">
                 <!-- Swiper -->
@@ -455,6 +455,241 @@
     </section>
     <!-- ----------------------------------------------------------------------- -->
     <!--                              Top Products                               -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Top Categories                              -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section class="pb-14 p-5 lg:px-0">
+        <div class="container mx-auto">
+            <div class="border-b border-b-[#e5e5e5]">
+                <h2 class="inline-block text-2xl border-b-[3px] border-b-[#16bcdc] borderw pb-4">دسته بندی های برتر</h2>
+            </div>
+            <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8">
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-1.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">دکور</h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-2.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">گوشی هوشمند
+                            </h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-3.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">مد و لباس
+                            </h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-4.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">خانه و
+                                آشپزخانه</h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-5.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">دوربین و
+                                تصویر</h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-3xl overflow-hidden relative h-36 group">
+                    <a href="">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-110"
+                            src="./images/cat-6.jpg" alt="">
+                        <div class="absolute right-7 top-10">
+                            <h4 class="text-white text-xl transition-all duration-300 hover:text-[#16bcdc]">اسپیکر و
+                                صوتی</h4>
+                            <p class="text-white opacity-60 text-sm mt-1">(7 محصول)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Top Categories                              -->
+    <!-- ----------------------------------------------------------------------- -->
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Today Discounts                             -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section class="pb-14 p-5 lg:px-0">
+        <div class="container mx-auto">
+            <div class="sm:border-b sm:border-b-[#e5e5e5] sm:flex justify-between items-center">
+                <h2 class="inline-block text-2xl border-b-[3px] border-b-[#16bcdc] borderw pb-4">تخفیف های روز</h2>
+                <div
+                    class="flex justify-between sm:gap-14 bg-[#CC1414] text-white py-2 px-8 rounded-3xl text-sm text-center mb-2 mt-5 sm:mt-0">
+                    <span>
+                        <p class="mb-2">10</p>
+                        روز
+                    </span>
+                    <span>
+                        <p class="mb-2">20</p>
+                        ساعت
+                    </span>
+                    <span>
+                        <p class="mb-2">30</p>
+                        دقیقه
+                    </span>
+                    <span>
+                        <p class="mb-2">40</p>
+                        ثانیه
+                    </span>
+                </div>
+            </div>
+            <div class="mt-10 grid grid-cols-1 xl:grid-cols-2  gap-10">
+                <div class="flex flex-col md:flex-row items-center justify-center bg-white p-5 rounded-3xl">
+                    <div class="w-full h-full md:w-[310px] md:h-[310px] overflow-hidden relative group">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-125"
+                            src="./images/fpb-1.jpg" alt="mobile">
+                        <div
+                            class="flex flex-col gap-1 absolute top-5 left-0 opacity-0 transition-all duration-300 group-hover:top-0 group-hover:opacity-100">
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="far fa-eye"></i>
+                            </span>
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="fas fa-layer-group"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="md:w-[calc(100%_-_310px)]">
+                        <h3 class="text-[#0d6efd] text-lg">دوربین دوگانه 20 مگاپیکسلی APPO R11s 64 گیگابایتی</h3>
+                        <div class="my-3">
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="far fa-star"></i></span>
+                        </div>
+                        <h5 class="text-md"><span class="text-red-500 pl-1">2.000.000 </span><span
+                                class="text-green-500 pl-1">2.000.000 </span> تومان
+                        </h5>
+                        <ul class="list-disc text-[#666] pr-4 my-5 text-md">
+                            <li>صدای باس و استریو</li>
+                            <li>صفحه نمایش با وضوح 1080 در 720 پیکسل</li>
+                            <li>حافظه ذخیره سازی و تقویت سیم کارت: 12 گیگابایت رم، 256 گیگابایت</li>
+                            <li>سیستم عامل اندروید نسخه 10</li>
+                        </ul>
+                        <div class="w-full bg-[#E9ECEF] rounded-full h-2.5 mb-4">
+                            <div class="bg-[#DC3545] h-3 rounded-r-full" style="width: 30%"></div>
+                        </div>
+                        <p class="text-[#666]">فروش : 350</p>
+                        <button class="py-3 w-full text-white bg-[#16BCDC] rounded-full mt-3">افزودن به سبد</button>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-center bg-white p-5 rounded-3xl">
+                    <div class="w-full h-full md:w-[310px] md:h-[310px] overflow-hidden relative group">
+                        <img class="w-full h-full transition-all duration-300 group-hover:scale-125"
+                            src="./images/fpb-2.jpg" alt="mobile">
+                        <div
+                            class="flex flex-col gap-1 absolute top-5 left-0 opacity-0 transition-all duration-300 group-hover:top-0 group-hover:opacity-100">
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="far fa-eye"></i>
+                            </span>
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="far fa-heart"></i>
+                            </span>
+                            <span
+                                class="bg-[#F5F5F5] text-[#42381C] p-2 transition-all duration-300 hover:text-white hover:bg-[#16bcdc]">
+                                <i class="fas fa-layer-group"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="md:w-[calc(100%_-_310px)]">
+                        <h3 class="text-[#0d6efd] text-lg">دوربین دوگانه 20 مگاپیکسلی APPO R11s 64 گیگابایتی</h3>
+                        <div class="my-3">
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="fas fa-star"></i></span>
+                            <span class="text-yellow-400"><i class="far fa-star"></i></span>
+                        </div>
+                        <h5 class="text-md"><span class="text-red-500 pl-1">2.000.000 </span><span
+                                class="text-green-500 pl-1">2.000.000 </span> تومان
+                        </h5>
+                        <ul class="list-disc text-[#666] pr-4 my-5 text-md">
+                            <li>صدای باس و استریو</li>
+                            <li>صفحه نمایش با وضوح 1080 در 720 پیکسل</li>
+                            <li>حافظه ذخیره سازی و تقویت سیم کارت: 12 گیگابایت رم، 256 گیگابایت</li>
+                            <li>سیستم عامل اندروید نسخه 10</li>
+                        </ul>
+                        <div class="w-full bg-[#E9ECEF] rounded-full h-2.5 mb-4">
+                            <div class="bg-[#DC3545] h-3 rounded-r-full" style="width: 65%"></div>
+                        </div>
+                        <p class="text-[#666]">فروش : 800</p>
+                        <button class="py-3 w-full text-white bg-[#16BCDC] rounded-full mt-3">افزودن به سبد</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+                <div class="relative text-white font-medium h-48">
+                    <img class="rounded-3xl w-full h-full" src="./images/banner-14.jpg" alt="slider">
+                    <div class="absolute top-10 right-8">
+                        <a href="">
+                            <h2 class="text-2xl hover:underline">ماکروسافت<br>لپ تاپ سرفیس 14 </h2>
+                        </a>
+                        <p class="text-md mt-4">تا 30%</p>
+                    </div>
+                </div>
+                <div class="relative text-white font-medium h-48">
+                    <img class="rounded-3xl w-full h-full" src="./images/banner-15.jpg" alt="slider">
+                    <div class="absolute top-10 right-8">
+                        <a href="">
+                            <h2 class="text-2xl hover:underline">دوربین<br>بهترین دوربین بازار </h2>
+                        </a>
+                        <p class="text-md mt-4">تا 30%</p>
+                    </div>
+                </div>
+                <div class="relative text-white font-medium h-48">
+                    <img class="rounded-3xl w-full h-full" src="./images/banner-16.jpg" alt="slider">
+                    <div class="absolute top-10 right-8">
+                        <a href="">
+                            <h2 class="text-2xl hover:underline">کفش ورزشی<br>نایک ایر مکس 90 </h2>
+                        </a>
+                        <p class="text-md mt-4">تا 30%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Today Discounts                             -->
     <!-- ----------------------------------------------------------------------- -->
 </body>
 <!-- Swiper JS -->
