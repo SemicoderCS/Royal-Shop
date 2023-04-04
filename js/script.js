@@ -67,3 +67,18 @@ var swiper = new Swiper(".mySwiper2", {
         },
     },
 });
+
+// * Advertising Slider
+var swiper = new Swiper(".mySwiper3", {
+    loop: true,
+    autoplay: {
+        delay: 1,
+        disableOnInteraction: false
+    },
+    freeMode: true,
+    slidesPerView: 2,
+    speed: 3000,
+    grabCursor: true,
+    mousewheelControl: true,
+    keyboardControl: true,
+});
