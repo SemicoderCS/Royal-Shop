@@ -2,6 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* * Roboto */
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../fonts/roboto/eot/Roboto-Thin.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Thin.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Thin.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Thin.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/roboto/eot/Roboto-Light.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Light.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Light.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/roboto/eot/Roboto-Regular.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Regular.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Regular.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/roboto/eot/Roboto-Medium.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Medium.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Medium.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/roboto/eot/Roboto-Bold.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Bold.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Bold.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/roboto/eot/Roboto-Black.eot) format('eot'),
+        url(../fonts/roboto/ttf/Roboto-Black.ttf) format('ttf'),
+        url(../fonts/roboto/woff/Roboto-Black.woff) format('woff'),
+        url(../fonts/roboto/woff2/Roboto-Black.woff2) format('woff2');
+}
+
+/* * Vazir */
 @font-face {
     font-family: 'vazir';
     font-style: normal;
@@ -63,7 +126,7 @@
 }
 
 * {
-    font-family: 'vazir';
+    font-family: 'vazir', 'roboto';
 }
 
 *::selection {

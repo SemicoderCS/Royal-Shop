@@ -111,3 +111,35 @@ var swiper = new Swiper(".mySwiper4", {
         }
     }
 });
+
+// * Product Details Slideshow
+function productDetailsSlide(n) {
+    const previewImages = document.getElementById('product-details-img-preview').getElementsByTagName('img');
+    const images = document.getElementById('product-details-img').getElementsByTagName('div');
+    for (let i = 0; i < previewImages.length; i++) {
+        previewImages[i].classList.add('hidden');
+        images[i].classList.remove('border-[#16bcdc]');
+    }
+    previewImages[n - 1].classList.remove('hidden')
+    images[n - 1].classList.add('border-[#16bcdc]')
+}
+
+// * Product Details List
+
+function productDetailsList(n) {
+    console.log(n)
+    const listItem = document.getElementById('product-details-list').getElementsByTagName('li');
+    const listContent = document.getElementById('product-details-list-content').getElementsByTagName('div');
+
+    for (let i = 0; i < listItem.length; i++) {
+        const element = listItem[i];
+        element.classList.remove('border-b-2')
+        element.classList.remove('border-[#16bcdc]')
+        element.classList.add('text-[#b6b6b6]')
+        listContent[i].classList.add('hidden');
+    }
+    listItem[n - 1].classList.add('border-b-2');
+    listItem[n - 1].classList.add('border-[#16bcdc]');
+    listItem[n - 1].classList.remove('text-[#b6b6b6]');
+    listContent[n - 1].classList.remove('hidden');
+}
