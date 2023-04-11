@@ -133,3 +133,9 @@
     background: #000;
     color: yellowgreen;
 }
+
+.blog-banner {
+    height: 400px;
+    background: linear-gradient(rgb(14, 38, 65, 0.3), rgb(14, 38, 65, 0.3)), url('../images/page-banner-4.jpg');
+    background-size: cover;
+}
